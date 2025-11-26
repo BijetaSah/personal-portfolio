@@ -92,7 +92,7 @@ function Navbar() {
           Contact me
         </motion.button>
       </nav>
-      {navOpen && <MobileNav navOpen={navOpen} onToggleNav={handleToggleNav} />}
+      <MobileNav navOpen={navOpen} onToggleNav={handleToggleNav} />
     </>
   );
 }
