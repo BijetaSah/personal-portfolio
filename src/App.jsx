@@ -1,5 +1,12 @@
+import Header from "./components/header/Header";
+import MobileNav from "./components/header/MobileNav";
+
 function App() {
-  return <div className="text-indigo-600">Hello</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
